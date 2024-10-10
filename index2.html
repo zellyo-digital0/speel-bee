@@ -1,0 +1,1014 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SpellBee</title>
+  <link rel="icon" type="image/png" href="img/bee.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.min.css" />
+  <link href="./css/style.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- header starts here  -->
+  <header class="container mx-auto px-5 xl:px-16">
+    <div class="py-2 md:py-5">
+      <img src="img/logo.png" class="w-20 md:w-36" alt="logo" />
+    </div>
+  </header>
+  <!-- header ends here  -->
+
+  <!-- desktop hero section starts here  -->
+  <section class="hero bg-no-repeat bg-left lg:bg-center bg-cover relative hidden lg:block z-0"
+    style="background-image: url('./img/l.png');">
+    <div class="container mx-auto px-5 xl:px-16 flex flex-col lg:flex-row justify-between min-h-[768px] py-16 gap-y-10">
+      <!-- left side  -->
+      <div class="self-center space-y-5 lg:space-y-16 w-full lg:max-w-[470px]">
+        <div class="space-y-2 lg:space-y-4">
+          <h1 class="text-3xl lg:text-6xl text-white font-bold uppercase">
+            Join Thousands
+          </h1>
+          <p class="text-[#ffe783] font-medium lg:text-2xl text-xl uppercase">
+            of SpellBee students nationwide to enhance your language skills
+            with a proven & comprehensive program
+          </p>
+        </div>
+        <div class="space-y-2">
+          <h5 class="bg-[#07450f] inline-block p-4 text-white font-semibold text-2xl lg:text-4xl">
+            SLEP 2024 - 2025
+          </h5>
+          <p class="text-white font-semibold text-xl lg:text-2xl uppercase">
+            Students GRADE 1 TO 12
+          </p>
+        </div>
+        <p class="text-[#ffe783] font-medium lg:text-2xl text-xl">
+          A route to SLEP <br />
+          encyclopaedic knowledge
+        </p>
+      </div>
+      <!-- righ side  -->
+      <div
+        class="bg-gradient-to-r from-[#2f6d36] via-[#45894e] to-[#34743c] static lg:absolute h-[106%] right-8 max-w-[500px] -top-5 px-5 py-10 lg:px-10 lg:flex flex-col justify-center space-y-5 lg:space-y-10">
+        <h2 class="text-3xl lg:text-6xl text-white font-extrabold">
+          Admissions 2024 - 2025
+        </h2>
+        <form class="space-y-3 lg:space-y-6">
+          <input type="text" name="" placeholder=" Enter your name"
+            class="w-full bg-[#e9e8e7] rounded-lg px-2 py-4 focus:outline-none" id="" required />
+          <input type="email" placeholder="Email id" class="w-full bg-[#e9e8e7] rounded-lg px-2 py-4 focus:outline-none"
+            id="" required />
+          <input type="tel" name="" placeholder="Mobile number"
+            class="w-full bg-[#e9e8e7] rounded-lg px-2 py-4 focus:outline-none" id="" required />
+          <button type="submit"
+            class="bg-[#c03a3b] hover:bg-[#e24444] text-white font-medium text-lg lg:text-xl px-6 py-3 rounded-lg formBtn">
+            Submit
+          </button>
+          <p class="text-white text-base0 lg:text-lg flex items-center gap-2">
+            <span><img src="img/formsecure.png" class="w-4" alt="secure"></span>Your information is safe with us
+          </p>
+        </form>
+      </div>
+    </div>
+    <div class="hidden lg:block absolute bottom-2 left-[34%] w-[130px]">
+      <img src="img/bannerSeal.png" class="w-full" alt="" />
+    </div>
+  </section>
+  <!--desktop hero section ends here  -->
+  <!-- mobile hero section starts here  -->
+  <section
+    class="hero bg-gradient-to-r from-[#901819] via-[#bc3032] to-[#c03a3b] relative lg:hidden block px-5 py-8 overflow-hidden">
+    <div class="self-center space-y-7  max-w-[210px] md:max-w-[450px]">
+      <div class="space-y-4">
+        <h1 class="text-2xl md:text-3xl text-white font-medium uppercase">
+          Join Thousands
+        </h1>
+        <p class="text-[#ffe783] text-xs md:text-base uppercase">
+          of SpellBee students nationwide to enhance your language skills
+          with a proven & comprehensive program
+        </p>
+      </div>
+      <div class="space-y-2">
+        <h5 class="bg-[#07450f] inline-block p-2 text-white font-medium text-base md:text-lg">
+          SLEP 2024 - 2025
+        </h5>
+        <p class="text-white font-medium text-base md:text-lg uppercase">
+          Students GRADE <br> 1 TO 12
+        </p>
+      </div>
+      <p class="text-[#ffe783] text-base md:text-lg">
+        A route to SLEP <br />
+        encyclopaedic <br> knowledge
+      </p>
+    </div>
+    <div class="absolute right-0 bottom-0 w-[250px] sm:w-[30%] mobileBanner"><img src="img/mobile-banner.png"
+        alt="banner" class="w-full"></div>
+  </section>
+  <section class="bg-gradient-to-r from-[#2f6d36] via-[#45894e] to-[#34743c] px-10 py-10 space-y-5 lg:hidden block">
+    <h2 class="text-4xl text-white font-extrabold ">
+      Admissions <br> 2024 - 2025
+    </h2>
+    <form class="space-y-4">
+      <input type="text" name="" placeholder=" Enter your name"
+        class="w-full bg-[#e9e8e7]  px-2 py-4 focus:outline-none" id="" required />
+      <input type="email" placeholder="Email id" class="w-full bg-[#e9e8e7]  px-2 py-4 focus:outline-none" id=""
+        required />
+      <input type="tel" name="" placeholder="Mobile number" class="w-full bg-[#e9e8e7]  px-2 py-4 focus:outline-none"
+        id="" required />
+      <button type="submit"
+        class="bg-[#c03a3b] hover:bg-[#e24444] text-white font-medium text-lg lg:text-xl px-6 py-1 rounded formBtn">
+        Submit
+      </button>
+      <p class="text-white text-base lg:text-lg flex items-center gap-2">
+        <span><img src="img/formsecure.png" class="w-3" alt="secure"></span> Your information is safe with us
+      </p>
+    </form>
+  </section>
+  <!-- mobile hero section ends here  -->
+
+  <!-- partners start -->
+  <section id="partners" class="bg-[#fff5e6] px-3 py-14">
+    <div class="container mx-auto px-5 xl:px-16">
+      <!-- container box -->
+      <div class="flex sm:flex-row flex-col items-center justify-center gap-16 lg:gap-52">
+        <!-- items -->
+        <div class="flex items-center justify-center"><img src="img/1.png" alt="brand"
+            class="max-w-[160px] mx-auto object-fit"></div>
+        <div class="flex items-center justify-center"><img src="img/2.png" alt="brand"
+            class="max-w-[160px] mx-auto object-fit"></div>
+        <div class="flex items-center justify-center"><img src="img/3.png" alt="brand"
+            class="max-w-[160px] mx-auto object-fit"></div>
+      </div>
+    </div>
+  </section>
+  <!-- partners end -->
+
+  <!-- program start -->
+  <section id="program"
+    class="bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#478b50] via-[#3c7b44] to-[#2d6534] py-10">
+    <div class="container mx-auto px-3 xl:px-16">
+      <!-- container box -->
+      <div class="flex flex-col items-center justify-center">
+        <h2
+          class="max-w-[1000px] md:text-[46px] sm:text-3xl text-lg md:leading-[4rem] text-center text-[#fff5e6] font-bold md:pb-5 pb-4 drop-shadow-[4px_4px_var(--tw-shadow-color)] shadow-stone-800/30">
+          Strategic
+          Language Enhancement Programme
+          for Students GRADE 1 TO 12</h2>
+        <p class="max-w-lg md:text-[22px] md:text-base text-sm text-[#ffe3a2] text-center md:leading-7 ">An exclusive,
+          immersive,
+          year-long,
+          one-of-a-kind, world-class language development programme</p>
+      </div>
+    </div>
+  </section>
+  <!-- program end -->
+
+
+
+
+
+
+
+
+
+  <!-- label & round start -->
+  <section id="level" class="bg-[#fff5e6] md:py-24 py-10 px-6">
+    <div class="container mx-auto">
+      <!-- heading title -->
+      <div>
+        <h3 class="text-center text-[#c03a3b] md:text-3xl text-xl uppercase font-semibold md:pb-20 pb-16">Levels
+          &
+          Rounds
+        </h3>
+      </div>
+      <!-- chart pc start -->
+      <div class="lg:block hidden">
+        <div class="relative">
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:top-24 xl:top-16 lg:top-10">
+            <div class="text-center max-w-1/4 xl:-ml-28 lg:-ml-24">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">INTERSCHOOL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#851314] leading-6 pt-2 pb-[26px]">
+                Strengthens
+                vocabulary
+                and grammar skills</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-ml-0 lg:-ml-22">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">NATIONAL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#a55a02] leading-6 pt-2 pb-[26px]">
+                Enhances verbal
+                ability
+                and language accuracys</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+          </div>
+          <!-- list 1 & 3 start -->
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:top-[28rem] xl:top-[22rem] lg:top-[18rem]">
+            <div class="text-center max-w-1/4 2xl:-ml-28 xl:-ml-30 lg:-ml-20">
+              <ul class="space-y-1.5 ">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>1.</span>
+                  <p class="text-start">Spell it
+                    Right</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>2.</span>
+                  <p class="text-start">Word
+                    Analysis<br>
+                    (Root words)</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>3.</span>
+                  <p class="text-start">Inflections and <br>Collocations</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>4.</span>
+                  <p class="text-start">Find the Correct <br>Sentence</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>5.</span>
+                  <p class="text-start">General
+                    Knowledge<br>
+                    (Literary World)</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4">
+              <ul class="mx-auto space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>10.</span>
+                  <p>Crossword</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>11.</span>
+                  <p>Word Weaving</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>12.</span>
+                  <p class="text-start">Compound Words<br>
+                    and Kinds/Types
+                    <br>of Words
+                  </p>
+                </li>
+              </ul>
+            </div>
+
+            <div class="text-center max-w-1/4"></div>
+          </div>
+          <!-- list 1 & 3 end -->
+          <img src="img/level-pc-full.png" alt="level" class="w-full object-fit hidden md:block">
+          <!-- list 2 & 4 start -->
+          <div
+            class=" mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:bottom-[21rem] xl:bottom-[18rem] lg:bottom-52">
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 2xl:-mr-18 xl:-mr-18 lg:mr-8">
+              <ul class="space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>6.</span>
+                  <p class="text-start">Word
+                    Analysis
+                    <br>(Root words)
+                  </p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>7.</span>
+                  <p class="text-start">Form the Correct <br>Sentence</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                  <span>8.</span>
+                  <p>Phonetics</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>9.</span>
+                  <p class="text-start">Reading<br>
+                    Comprehension</p>
+                </li>
+              </ul>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-28 lg:-mr-20">
+              <ul class="space-y-1.5">
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>13.</span>
+                  <p class="text-start">Synonyms and<br>
+                    Antonyms</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>14.</span>
+                  <p class="text-start">Idioms, Phrases<br>
+                    and Proverbs</p>
+                </li>
+                <li
+                  class="2xl:text-xl xl:text-[1.1rem] text-sm text-white font-medium capitalize flex flex-row items-start space-x-3">
+                  <span>15.</span>
+                  <p class="text-start">Presenting an<br>
+                    Argument</p>
+                </li>
+              </ul>
+            </div>
+
+          </div>
+          <!-- list 2 & 4 end -->
+          <div
+            class="mx-auto w-full h-20 flex flex-row items-center justify-evenly absolute 2xl:bottom-10 xl:bottom-7 lg:-bottom-3">
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-18 lg:-mr-18">
+              <h4 class="xl:text-[22px] lg:text-md font-medium">REGIONAL/STATE</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#06375f] leading-6 pt-2 pb-[26px]">
+                Improves
+                pronunciation
+                and comprehension</p>
+            </div>
+            <div class="text-center max-w-1/4"></div>
+            <div class="text-center max-w-1/4 xl:-mr-28 lg:-mr-20">
+              <h4 class="xl:text-[22px] lg:text-md font-medium ">INTERNATIONAL</h4>
+              <p
+                class="xl:max-w-[220px] max-w-[180px] xl:text-lg lg:text-base font-medium text-[#053b0c] leading-6 pt-2 pb-[26px]">
+                Promotes competency
+                in conversational
+                English and critical thinking skills</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="max-w-[90%] mx-auto flex flex-row intems-center justify-around mt-7">
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 5 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 9 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 12 Rounds</p>
+          <p class="xl:text-3xl lg:text-2xl text-[#c03a3b] font-medium">1 to 15 Rounds</p>
+        </div>
+      </div>
+      <!-- chart pc end -->
+      <!-- chart mobile start -->
+      <div class="lg:hidden flex flex-col items-center justify-center space-y-14">
+        <!-- items 1 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-1.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[30%] left-[55%] -translate-x-[55%]  z-10 xs:space-y-1.5 mx:space-y-2">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>1.</span>
+                <p>Spell it
+                  Right</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>2.</span>
+                <p>Word
+                  Analysis
+                  (Root words)</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>3.</span>
+                <p>Inflections
+                  and
+                  Collocations</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>4.</span>
+                <p>Find the
+                  Correct
+                  Sentence</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>5.</span>
+                <p>General
+                  Knowledge
+                  (Literary World)</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">INTERSCHOOL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] sm:leading-5 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Strengthens
+              vocabulary
+              and grammar skills</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 5 Rounds</h5>
+          </div>
+        </div>
+        <!-- items 2 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-2.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[36%] left-[55%] -translate-x-[55%]  z-10 space-y-1.5">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>6.</span>
+                <p>Word
+                  Analysis
+                  (Root words)</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>7.</span>
+                <p>Form the Correct Sentence</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>8.</span>
+                <p>Phonetics</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>9.</span>
+                <p>Reading
+                  Comprehension</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">REGIONAL/STATE</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Improves pronunciation
+              and comprehension</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 9 Rounds</h5>
+          </div>
+        </div>
+        <!-- items 3 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-3.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[40%] left-[55%] -translate-x-[55%]  z-10 space-y-1">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>10.</span>
+                <p>Crossword</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>11.</span>
+                <p>Word Weaving</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3 ">
+                <span>12.</span>
+                <p>Compound Words
+                  and Kinds/Types
+                  of Words</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium">NATIONAL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Enhances verbal ability
+              and language accuracys</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 12 Rounds</h5>
+          </div>
+        </div>
+        <!-- items 4 -->
+        <div class="flex flex-col items-center justify-center ">
+          <!-- img -->
+          <div class="relative">
+            <img src="img/level-mobile-4.png" alt="" class="object-fill w-full h-full">
+            <ul class="absolute top-[40%] left-[55%] -translate-x-[55%]  z-10 space-y-1">
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>13.</span>
+                <p>Synonyms and
+                  Antonyms</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>14.</span>
+                <p>Idioms, Phrases
+                  and Proverbs</p>
+              </li>
+              <li
+                class="sm:text-lg xs:text-base mx:text-[.8rem] text-xs sm:leading-5 text-white font-medium capitalize flex flex-row items-start space-x-3">
+                <span>15.</span>
+                <p>Presenting an
+                  Argument</p>
+              </li>
+            </ul>
+          </div>
+          <div class=" text-center mt-[20px]">
+            <h4 class="sm:text-[22px] text-lg font-medium ">INTERNATIONAL</h4>
+            <p
+              class="sm:max-w-[220px] max-w-[180px] sm:text-lg text-sm font-medium text-[#053b0c] ms:leading-6 sm:pt-2 sm:pb-[26px] pt-2 pb-[20px]">
+              Promotes competency
+              in conversational
+              English and critical thinking skills</p>
+            <h5 class="sm:text-[28px] text-xl font-medium text-[#c03a3b]">1 to 15 Rounds</h5>
+          </div>
+        </div>
+      </div>
+      <!-- chart mobile end -->
+    </div>
+  </section>
+  <!-- label & round end -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- statistics start -->
+  <section id="statistic" class="bg-gradient-to-b from-[#9b2d2f] via-[#b33436] to-[#9b2d2f] md:py-12 py-10">
+    <div class="container mx-auto px-5 xl:px-16">
+      <!-- hcontainer box-->
+      <div class="flex md:flex-row flex-col items-center justify-between md:space-y-0 space-y-6">
+        <!-- items -->
+        <div>
+          <h3 class="lg:text-[42px] md:text-4xl text-3xl font-medium uppercase text-center text-white md:pb-3 pb-2">1
+            Million+
+          </h3>
+          <p class="lg:text-base text-sm font-medium uppercase text-center text-[#ffed86]">STUDENTS</p>
+        </div>
+        <div>
+          <h3 class="lg:text-[42px] md:text-4xl text-3xl font-medium uppercase text-center text-white md:pb-3 pb-2">
+            5,000</h3>
+          <p class="lg:text-base text-sm font-medium uppercase text-center text-[#ffed86]">SCHOOLS SERVED</p>
+        </div>
+        <div>
+          <h3 class="lg:text-[42px] md:text-4xl text-3xl font-medium uppercase text-center text-white md:pb-3 pb-2">
+            15,000</h3>
+          <p class="lg:text-base text-sm font-medium uppercase text-center text-[#ffed86]">Teachers Trained</p>
+        </div>
+        <div>
+          <h3 class="lg:text-[42px] md:text-4xl text-3xl font-medium uppercase text-center text-white md:pb-3 pb-2">
+            10,000</h3>
+          <p class="lg:text-base text-sm font-medium uppercase text-center text-[#ffed86]">Prizes & Rewards Awarded</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- statistics end -->
+
+
+  <!-- outcomes start -->
+  <section id="outcomes"
+    class="bg-gradient-to-l from-[#fcead1] via-[#fceedd] to-[#fcead1] md:pt-20 pt-10 bg-no-repeat bg-center bg-cover"
+    style="background-image: url('./img/outcome.png')">
+    <div class="container mx-auto px-5 xl:px-16">
+      <!-- container box -->
+      <div class="max-w-5xl mx-auto flex md:flex-row flex-col items-center">
+        <!-- left -->
+        <div>
+          <!-- heading title -->
+          <div class="flex flex-row items-center md:justify-end justify-center md:pb-10 pb-6">
+            <img src="img/testimonialIcon.png" alt="bee" class="object-fit md:mr-3 mr-2 md:-mt-3 -mt-1 md:w-12 w-8">
+            <h3 class="text-center text-[#c03a3b] md:text-3xl text-xl uppercase font-semibold">Outcomes
+            </h3>
+          </div>
+          <!-- content -->
+          <ul class="max-w-xl md:space-y-5 space-y-4">
+            <li class="flex  gap-3">
+              <img src="img/testimonialIcon.png" class="w-5 self-start mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#053359] flex-1">Better understanding and better performance in all
+                subjects</p>
+            </li>
+            <li class="flex  gap-3">
+              <img src="img/testimonialIcon.png" class="w-5 self-start mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#053359] flex-1">Fluency in speech & expressiveness in writing</p>
+            </li>
+            <li class="flex  gap-3">
+              <img src="img/testimonialIcon.png" class="w-5 self-start mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#053359] flex-1">Passion to author articles and books</p>
+            </li>
+            <li class="flex  gap-3">
+              <img src="img/testimonialIcon.png" class="w-5 self-start mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#053359] flex-1">A strong foundation for IELTS, TOEFL, GRE, GMAT,
+                UPSC, etc.</p>
+            </li>
+          </ul>
+          <!-- button -->
+          <div class="flex items-center md:justify-end justify-center md:py-9 py-7">
+            <a href="#"
+              class="inline-block rounded-full py-3 px-9 bg-[#478b50] hover:bg-green-700 text-white font-semibold md:text-[28px]">JOIN
+              NOW</a>
+          </div>
+        </div>
+        <!-- right -->
+        <div class="self-end  md:ml-5">
+          <img src="img/certificate.png" alt="" class="object-fit">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- outcomes end -->
+
+  <!-- testimonial starts from here  -->
+  <section class="container mx-auto px-5 xl:px-16 py-10 lg:py-20">
+    <div class="relative">
+      <h2 class="flex justify-center items-center gap-2 font-semibold text-[#c03a3b] text-3xl uppercase">
+        Testimonials
+        <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
+      </h2>
+      <!-- left bee  -->
+      <div class="absolute left-0 -bottom-16 hidden xl:block w-[400px]">
+        <img src="img/testleft.png" class="w-full" alt="">
+      </div>
+      <!-- right bee  -->
+      <div class="absolute right-8 -bottom-16 hidden xl:block w-[150px]">
+        <img src="img/testRight.png" class="w-full" alt="">
+      </div>
+    </div>
+
+    <div class="relative pt-10 lg:pt-20">
+      <!-- arrow start  -->
+      <div class="absolute top-1/2 -translate-y-1/2 left-0 lg:-left-5 z-50">
+        <button class="prev slick-arrow">
+          <img src="./img/prev.png" class="w-5 lg:w-8" alt="prev" />
+        </button>
+      </div>
+      <div class="absolute top-1/2 -translate-y-1/2 right-0 lg:-right-5 ">
+        <button class="next slick-arrow">
+          <img src="./img/next.png" class="w-5 lg:w-8" alt="next" />
+        </button>
+      </div>
+      <!-- slider start here  -->
+      <div class="testimonialSlider">
+        <!-- single item  -->
+        <div class="text-center space-y-5">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
+            My daughter enjoys giving this exams and finds it very
+            interesting. She has been enrolling it for almost 4 years now and
+            she is way better at her English language skills today. Study
+            materials are prepared in such a way that students can study by
+            themselves. I strongly recommend it to all the parents to enrol
+            their kids for this spell bee.
+          </p>
+          <div>
+            <img src="img/avatar.png" class="w-6 mx-auto" alt="" />
+          </div>
+          <div>
+            <h4 class="text-[#c03a3b] font-medium text-lg">
+              Jayashree Wable
+            </h4>
+            <p class="italic text-[#053359]">
+              Parent of Nishigandha Wable, Sanjivani Academy, Mumbai
+            </p>
+          </div>
+        </div>
+        <!-- single item  -->
+        <div class="text-center space-y-5">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
+            Spellbee International is a very helpful and effective method for the students to enhance their vocabulary
+            skills and improve their vocabulary, overcome stage fear and are actively interacting with all other
+            students.
+          </p>
+          <div>
+            <img src="img/avatar.png" class="w-6 mx-auto" alt="" />
+          </div>
+          <div>
+            <h4 class="text-[#c03a3b] font-medium text-lg">
+              Sivashankaran
+            </h4>
+            <p class="italic text-[#053359]">
+              Parent, Excel Global Schools, Nagercoil, Tamilnadu
+            </p>
+          </div>
+        </div>
+        <!-- single item  -->
+        <div class="text-center space-y-5">
+          <p class="text-[#053359] text-lg font-medium min-h-[140px]">
+            My daughter enjoys giving this exams and finds it very
+            interesting. She has been enrolling it for almost 4 years now and
+            she is way better at her English language skills today. Study
+            materials are prepared in such a way that students can study by
+            themselves. I strongly recommend it to all the parents to enrol
+            their kids for this spell bee.
+          </p>
+          <div>
+            <img src="img/avatar.png" class="w-6 mx-auto" alt="" />
+          </div>
+          <div>
+            <h4 class="text-[#c03a3b] font-medium text-lg">
+              Jayashree Wable
+            </h4>
+            <p class="italic text-[#053359]">
+              Parent of Nishigandha Wable, Sanjivani Academy, Mumbai
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- testimonial ends from here  -->
+
+  <!-- inclusions start here  -->
+  <section class=" relative bg-gradient-to-r from-[#2a6f3d] via-[#489b5e] to-[#296d3c]">
+    <div class="container mx-auto px-5 xl:px-16 lg:py-20 pt-16 pb-32 gap-y-10 flex flex-col justify-center">
+      <h2 class="flex justify-center items-center gap-2 font-semibold text-white text-3xl uppercase">
+        <span><img src="img/testimonialIcon.png" class="w-8" alt="" /></span>
+        inclusions
+      </h2>
+      <!-- icon box start here  -->
+      <div class="flex justify-between flex-col lg:flex-row gap-5 max-w-[900px] mx-auto lg:pt-10">
+        <div class="space-y-6 w-full lg:w-[43%]">
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Preparatory Books</h3>
+              <p class="italic font-light lg:text-lg text-base">(Hard-Copy & Digital book)</p>
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Online coaching support </h3>
+              <p class="italic font-light lg:text-lg text-base">(24/7 Access to recorded videos and
+                Round-based games)</p>
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Live boot camps</h3>
+              <p class="italic font-light lg:text-lg text-base">(Grade-wise for all Levels)</p>
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Online games to strengthen
+                your word bank</h3>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-6 w-full lg:w-[43%]">
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Examinations</h3>
+
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Assessment </h3>
+              <p class="italic font-light lg:text-lg text-base">(Detailed and concept-based)</p>
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Certificates (for all)</h3>
+
+            </div>
+          </div>
+          <!-- single items  -->
+          <div class="flex gap-2">
+            <div>
+              <img src="img/testimonialIcon.png" class="w-9" alt="">
+            </div>
+            <div class="text-white flex-1">
+              <h3 class="font-medium lg:text-2xl text-xl">Rewards for top rank holders </h3>
+              <p class="italic font-light lg:text-lg text-base">(Medals/book sets/gift vouchers)
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- img 1  -->
+    <div class="absolute left-0 top-3 w-[90px] lg:w-[238px]">
+      <img src="img/inclu1.png" class="w-full" alt="">
+    </div>
+    <!-- img 2  -->
+    <div class="absolute left-0 bottom-0 lg:bottom-2 w-[90px] z-10 lg:w-[180px]">
+      <img src="img/inclu2.png" class="w-full" alt="">
+    </div>
+    <!-- img 3  -->
+    <div class="absolute left-[45%] lg:left-[55%] -bottom-3 w-[80px] lg:w-[120px]">
+      <img src="img/inclu3.png" class="w-full" alt="">
+    </div>
+    <!-- img 4  -->
+    <div class="absolute right-0 lg:right-16 top-0 w-[80px]  lg:w-[152px]">
+      <img src="img/inclu4.png" class="w-full" alt="">
+    </div>
+    <!-- img 5  -->
+    <div class="absolute right-0 bottom-2 w-[120px] lg:w-[270px]">
+      <img src="img/inclu5.png" class="w-full" alt="">
+    </div>
+  </section>
+  <!-- inclusions end here  -->
+
+  <!-- benefits start -->
+  <section id="benefits" class="bg-[#fff5e6] md:pt-14 pt-10 lg:px-3 px-6">
+    <!-- heading title -->
+    <div class="flex flex-row items-center justify-center  pb-6">
+      <h2 class="flex justify-center items-center gap-2 font-semibold text-[#c03a3b] text-3xl uppercase">
+        Benefits
+        <span><img src="img/testimonialIcon.png" class="w-8" alt=""></span>
+      </h2>
+
+    </div>
+    <div class="lg:mx-auto lg:px-5 flex flex-col justify-around lg:flex-row items-center">
+      <!-- left -->
+      <div class="w-full lg:w-[25%]  self-end order-2 lg:order-1">
+        <img src="img/4.png" alt="boy" class="w-full">
+      </div>
+      <!-- right -->
+      <div class="xl:w-2/3 w-full lg:pb-14 pb-10 order-1 lg:order-2">
+        <div class="max-w-4xl xl:mx-0 mx-auto">
+
+          <!-- content -->
+          <ul class=" md:space-y-10 space-y-4">
+            <li class="flex gap-3">
+              <img src="img/circle.svg" class="self-start w-5 mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#0f0f0f] flex-1">Our Product facilitates a child's vocabulary
+                growth
+                from 1,000 to
+                5,000 words during the first year, culminating in a
+                mastery of 50,000 words by the ninth year.
+              </p>
+            </li>
+            <li class="flex gap-3">
+              <img src="img/circle.svg" class="self-start w-5 mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#0f0f0f] flex-1">Our live and recorded coaching sessions, guided by
+                the
+                masterminds behind SpellBee books, immerse the child in a world
+                of learning excellence.</p>
+            </li>
+            <li class="flex gap-3">
+              <img src="img/circle.svg" class="self-start w-5 mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#0f0f0f] flex-1">Our advanced Coaching Platform is tailored to
+                effortlessly track
+                your child's
+                progress and witness their transformation.</p>
+            </li>
+            <li class="flex gap-3">
+              <img src="img/circle.svg" class="self-start w-5 mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#0f0f0f] flex-1">Our interactive Apps and Games, create a
+                captivating
+                learning
+                environment, making education a delightful adventure.</p>
+            </li>
+            <li class="flex gap-3">
+              <img src="img/circle.svg" class="self-start w-5 mt-1" alt="bee">
+              <p class="text-lg lg:text-[22px] text-[#0f0f0f] flex-1">Our International-level exams conducted by TCS
+                iON,
+                with access
+                to 800 TCS iON centres across the nation, ensuring
+                widespread availability and convenience.</p>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- benefits end -->
+
+
+
+
+  <!-- register section start here  -->
+  <section class="bg-no-repeat bg-top bg-cover" style="background-image: url('./img/registerbg.png');">
+    <div class="container mx-auto px-5 xl:px-16 py-10 lg:py-16">
+      <div class="text-center">
+        <h5
+          class="bg-[#c03a3b] inline-block px-4 py-2 rounded-lg text-white font-semibold text-lg md:text-3xl lg:text-4xl uppercase">
+          Register online today!
+        </h5>
+        <h6 class="text-[#333333] text-xl font-medium mt-5">Choose your model</h6>
+      </div>
+      <div class="flex justify-between gap-10 flex-col lg:flex-row pt-16 max-w-[1000px] mx-auto relative">
+        <div class="flex-1 relative">
+          <img src="img/a.png" class="w-[330px] lg:w-[476px] mx-auto" alt="">
+          <div class="absolute top-24 left-[39%] lg:top-36 lg:left-[43%]">
+            <h2 class="text-[#655009] uppercase text-center font-extrabold text-3xl">Model <br> A</h2>
+          </div>
+          <div
+            class="text-center w-[180px] lg:w-[225px] absolute bottom-16 lg:left-[52%] left-1/2 -translate-x-1/2 pl-3 ">
+            <p class="text-[#000000]  text-xs lg:text-base font-medium mb-2 lg:mb-5">
+              SPELLBEE EXCEL <br>
+              (LEVEL 1 ONLY) Fee <span class="text-[#d40708]">₹ 690/-</span>
+              A Breathe-Easy-Plan
+              Additional fee for Levels 2, 3 and 4 shall be applicable as you progress (optional).
+              Materials will be received Level by Level.
+            </p>
+            <a href="#"
+              class="bg-[#07450f] hover:bg-[#329b40] text-white font-medium text-xl rounded-lg px-4 py-2">Enquire
+              Now</a>
+          </div>
+        </div>
+        <div class="flex-1 relative">
+          <img src="img/b.png" class="w-[330px] lg:w-[476px] mx-auto" alt="">
+          <div class=" absolute top-24 left-[39%] lg:top-36 lg:left-[43%]">
+            <h2 class="text-[#a6191a] uppercase text-center font-extrabold text-3xl">Model <br> b</h2>
+          </div>
+          <div
+            class="text-center w-[180px] lg:w-[232px] absolute bottom-16 lg:left-[52%] left-1/2 -translate-x-1/2 pl-3 ">
+            <p class="text-white text-xs lg:text-base font-medium mb-2 lg:mb-5">
+              SPELLBEE INTENSE <br>
+              (ALL 4 LEVELS) Fee <span class="text-[#ffd937]">₹ 5,400/-</span>
+              A Money-and-Time-Saver-Plan
+              Absolutely no additional fee up to the International Level, and you will receive all course materials and
+              full course access in the beginning itself.
+            </p>
+            <a href="#"
+              class="bg-[#07450f] hover:bg-[#2e8b3b] text-white font-medium text-xl rounded-lg px-4 py-2">Enquire
+              Now</a>
+          </div>
+        </div>
+
+        <!-- left img  -->
+        <div class="absolute -left-24 hidden lg:block">
+          <img src="img/bee1.png" class="w-28" alt="">
+        </div>
+        <!-- right img  -->
+        <div class="absolute -right-28 hidden lg:block">
+          <img src="img/bee.png" class="w-32" alt="">
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- register section end here  -->
+
+
+
+  <!-- footer start -->
+  <footer id="footer" class="bg-[#b22d2e] py-9">
+    <div class="container mx-auto px-5 xl:px-16">
+      <!-- container box -->
+      <div>
+        <p class="md:text-sm text-xs text-center text-white pb-3">SpellBee International Language for Life is a
+          registered trademark under the Trademarks Act, 1999.</p>
+        <p class="md:text-xs text-[11.5px] text-center text-white">Design & Development: <a href="https://bytindia.com/"
+            target="_blank" class="hover:underline">BYT</a></p>
+      </div>
+    </div>
+  </footer>
+  <!-- footer end -->
+  <!-- script start -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
